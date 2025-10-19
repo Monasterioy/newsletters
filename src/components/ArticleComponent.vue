@@ -94,7 +94,7 @@ import EditableText from "./EditableText.vue";
 
 const styleStore = useStyleStore();
 const contentStore = useContentStore();
-const { isMobile, width } = useScreenSize();
+const { width } = useScreenSize();
 
 onMounted(() => {
   styleStore.loadFromLocalStorage();

@@ -5,6 +5,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [vue(), vuetify({ autoImport: true })],
+  base: "newsletters",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
