@@ -25,7 +25,7 @@
 <script setup>
 import { ref } from "vue";
 import { useScreenSize } from "@/composables/useScreenSize";
-import CustomizerPanel from "./CustomizerPanel.vue"; // Tu contenido del aside
+import CustomizerPanel from "./CustomizerPanel.vue";
 
 const { isMobile } = useScreenSize();
 const drawer = ref(false);

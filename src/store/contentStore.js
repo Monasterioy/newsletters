@@ -10,7 +10,7 @@ const content = {
     title: "Título del artículo",
     content:
       "Este es un párrafo de ejemplo que demuestra cómo los estilos globales y específicos se aplican. Selecciona opciones en el panel de la derecha para ver los cambios en tiempo real.",
-    footer: "Pequeña nota al pie del contenido del cuerpo. ssss",
+    footer: "Pequeña nota al pie del contenido del cuerpo",
 
     img: "https://previews.123rf.com/images/pixphoto/pixphoto1607/pixphoto160700116/60734743-lots-of-people-walking-on-a-city-street.jpg",
   },

@@ -34,7 +34,7 @@
 </template>
 
 <script setup>
-import { ref, watch, nextTick } from "vue";
+import { ref, watch } from "vue";
 
 const props = defineProps({
   modelValue: {
@@ -68,9 +68,6 @@ watch(
 
 function startEditing() {
   isEditing.value = true;
-  nextTick(() => {
-    // auto-focus if Vuetify handles it differently
-  });
 }
 
 function stopEditing() {
